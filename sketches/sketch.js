@@ -11,7 +11,7 @@ let noiseMult = 0.05;
 
 let circleH = 150;
 
-let speed = 1;
+let speed = 0.5;
 let xs = [0, 100, 200, 300, 400, 500, 600];
 let ys = [];
 let rs = [];
@@ -71,8 +71,8 @@ function setup() {
   }
 
   for (let i = 0; i < nC; i++) {
-    ys[i] = random(100, 200);
-    rs[i] = random(100, 250);
+    ys[i] = random(80, 150);
+    rs[i] = random(80, 180);
   }
 
   updateTileNum();
