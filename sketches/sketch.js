@@ -91,7 +91,7 @@ function draw() {
         let emitter = emitters[counter];
         emitter.position.x = keypoint.x;
         emitter.position.y = keypoint.y;
-        emitter.emit(1);
+        emitter.emit(2);
         counter++;
       }
     }
